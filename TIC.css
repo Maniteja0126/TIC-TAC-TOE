@@ -1,0 +1,88 @@
+
+	/* CSS Code */
+	/* Heading */
+	*{
+		margin: 0px;
+		padding: 0%;
+	}
+	h1 {
+		color: orangered;
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		color: black;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+		background: rgba(105, 103, 103, 0.25);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(8.7px);
+		-webkit-backdrop-filter: blur(8.7px);
+		border: 1px solid rgba(105, 103, 103, 0.28);
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		/* border: 1px solid rgb(4, 55, 105); */
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		/* background-color: rgb(7, 69, 132); */
+		background: rgba(105, 103, 103, 0.25);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(8.7px);
+		-webkit-backdrop-filter: blur(8.7px);
+		border: 1px solid rgba(105, 103, 103, 0.28);
+
+		
+		color: rgba(31, 30, 30, 0.651);
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(6, 17, 149);
+		font-size: 20px;
+	}
+	#print1 {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(232, 25, 25);
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	.main {
+		
+		height: 100vh;
+		/* background-repeat:no-repeat; */
+		text-align: center;
+		background-image: url(bg.jpeg);
+		position:relative;
+	}
+	body{
+		overflow: hidden;
+	}
+	
+	/* Game Instruction Text */
+	
+
